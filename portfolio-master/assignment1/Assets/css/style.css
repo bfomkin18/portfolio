@@ -1,0 +1,238 @@
+
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* 
+
+Each of these CSS elements is associated with an HTML Element, Class, or ID.
+Flip between this css file and the HTML to see how things line up. 
+Experiment with deleting lines of code from the CSS to see how it affects the webpage when you refresh in the browser.
+
+*/
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url("C:/Users/Brandooooeee/portfolio-master/assignment1/Assets/images/stardust.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-size: 18px;
+	line-height: 150%;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #333333;
+}
+header {
+	background: #ffffff;
+}
+h1 {
+	color: #4aaaa5;
+	font-size: 24px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+h2 {
+	font-size: 20px;
+	color:#4aaaa5;
+	text-align: center;
+	display: block;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+#about {
+	float: left;
+	width: 650px;
+	padding: 25px;
+	display: block;
+	text-align: left;
+	margin-left: 100px;
+	margin-right: 0px;
+	margin-top: 29px;
+	margin-bottom: 100px;
+	background-color: #ffffff;
+}
+#Connect {
+	float: right;
+	width: 270px;
+	padding: 25px;
+	display: block;
+	margin-right: 195px;
+	margin-left: 0px;
+	background-color: #ffffff;
+}
+#logo {
+	background-color: #4aaaa5;
+	font-size: 24px;
+	border-style: solid;
+	border-color: #4aaaa5;
+	color: #fffffd;
+	width: 300px;
+	display: block;
+	text-align: center;
+	margin-left: 100px;
+	padding: 0px;
+}
+#nav {
+	float: right;
+	padding: 25px;
+	display: block;
+	margin-right: 195px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	position: static;
+}
+#navmain {
+	background-color: #ffffff;
+	position: static;
+}
+#container {
+	background-color: #ffffff;
+}
+footer {
+	position: absolute;
+	background-color: #666666;
+	background-position: 0% 0%;
+	bottom: -110;
+	left: 0;
+	width: 100%;
+	height: 60;
+	text-align: center;
+	font-size: 10;
+	display: block;
+	border-top: solid;
+	border-top-color: #4aaaa5;
+}
+#connectimg {
+	display: block;
+	height: auto;
+	width: auto;
+}
+#submit {
+	background-color: #4aaaa5;
+	font-size: 18px;
+	border-style: solid;
+	border-color: #4aaaa5;
+	color: #fffffd;
+	width: 100px;
+	display: block;
+	text-align: center;
+	padding-bottom: 5px;
+	padding-top: 0px:;
+	height: 40px;
+}
+
+@media only screen and (min-width: 640px) {
+    .col-x-1 {width: 8.33%;}
+    .col-x-2 {width: 16.66%;}
+    .col-x-3 {width: 25%;}
+    .col-x-4 {width: 33.33%;}
+    .col-x-5 {width: 41.66%;}
+    .col-x-6 {width: 50%;}
+    .col-x-7 {width: 58.33%;}
+    .col-x-8 {width: 66.66%;}
+    .col-x-9 {width: 75%;}
+    .col-x-10 {width: 83.33%;}
+    .col-x-11 {width: 91.66%;}
+    .col-x-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 768px) {
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 980px) {
+    .col-lg-1 {width: 8.33%;}
+    .col-lg-2 {width: 16.66%;}
+    .col-lg-3 {width: 25%;}
+    .col-lg-4 {width: 33.33%;}
+    .col-lg-5 {width: 41.66%;}
+    .col-lg-6 {width: 50%;}
+    .col-lg-7 {width: 58.33%;}
+    .col-lg-8 {width: 66.66%;}
+    .col-lg-9 {width: 75%;}
+    .col-lg-10 {width: 83.33%;}
+    .col-lg-11 {width: 91.66%;}
+    .col-lg-12 {width: 100%;}
+}
+
+/*/*/*/*.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}*/*/*/*/
+
